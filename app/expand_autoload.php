@@ -1,5 +1,6 @@
 <?php
 
+// Array of file paths
 $files = [
     "prompt/start.txt",
     "prompt/user_Interaction.txt",
@@ -9,26 +10,26 @@ $files = [
     "prompt/expectation.txt"
 ];
 
+// Function to extract filename from path
 function getFilenameFromPath($path) {
-  	// Use basename to get the filename without directory
-  	$filename = basename($path);
-	
-  	// Split filename and return first part
-  	$filename = explode(".", $filename)[0];
-	
-	$filename = str_replace("_"," ",$filename);
-	
-	$filename = ucwords($filename);
-	return $filename;
+    // Use basename to get the filename without directory
+    $filename = basename($path);
+    
+    // Split filename and return first part
+    $filename = explode(".", $filename)[0];
+    
+    // Replace underscores with spaces and capitalize each word
+    $filename = str_replace("_"," ",$filename);
+    $filename = ucwords($filename);
+    return $filename;
 }
-
 
 // Initialize an empty array to store content wrapped in <pre> tags
 $contentPre = [];
 
 // Read each file and wrap its content in <pre> tags
 foreach ($files as $file) {
-
+    // Add card structure with file content inside <pre> tags
     $contentPre[] = '
     <div class="col-lg-8 mx-auto">
         <div class="card shadow border">

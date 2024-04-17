@@ -8,6 +8,9 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Home</a>
+    </nav>
     <div class="container">
         <div class="row align-items-center min-vh-100">
             <div class="col-lg-6 mx-auto">
@@ -19,12 +22,9 @@
                         <table class="table">
                             <tbody>
 <?php
-								
 function get_assistants_name($variable = 'simple-name'){
-	return ucwords(str_replace('-', ' ', $variable));
-}							
-								
-								
+    return ucwords(str_replace('-', ' ', $variable));
+}
 								
 // Define the path to the directory
 $dir = dirname(__FILE__).DIRECTORY_SEPARATOR.'assistants';
@@ -38,7 +38,7 @@ $filteredFolders = array_filter($folders, function($folder) {
 // Iterate through folders and display them
 foreach ($filteredFolders as $folder) {
     $folderName = basename($folder);
-	$assistants_name = get_assistants_name($folderName);
+    $assistants_name = get_assistants_name($folderName);
     echo '<tr>';
     // Use relative path for folder navigation
     echo '<td><a href="assistants'.DIRECTORY_SEPARATOR.htmlspecialchars($folderName) . '/">' . $assistants_name . '</a></td>';

@@ -10,4 +10,4 @@ $input = "numbers";
 $action = "calculate";
 
 // The process executed by the AI assistant
-$process = "calculating the result";
+$process = "calculation";
