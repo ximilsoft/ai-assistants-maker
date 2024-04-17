@@ -5,7 +5,8 @@ This repository helps you create AI assistants.
 ## Features
 
 - Easily engineer AI assistants.
-- Create assistants that meet your expectations.
+- Analyze the prompts accurately.
+- Create AI assistants that meet your expectations.
 
 ## Installation
 
@@ -74,6 +75,7 @@ This repository helps you create AI assistants.
     // The process executed by the AI assistant
     $process = "calculating the result";
    ```
+
 5. Navigate to the `prompts` folder and Fill in text files as you need
 
 ## License
