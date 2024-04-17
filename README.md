@@ -10,3 +10,7 @@ git clone https://github.com/mohammedellihr/ai-assistants-maker
 ```shell
 cd ai-assistants-maker
 ```
+3. Open your web browser and navigate to:
+```shell
+localhost/ai-assistants-maker
+```
