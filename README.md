@@ -1,70 +1,74 @@
 # AI Assistants Maker
+
 This repository helps you create AI assistants.
 
 ## Features
+
 - Easily engineer AI assistants.
 - Create assistants that meet your expectations.
 
 ## Installation
 
 1. Clone the repository or download it:
-    ```shell
-    git clone https://github.com/mohammedellihr/ai-assistants-maker
-    ```
+   ```shell
+   git clone https://github.com/mohammedellihr/ai-assistants-maker
+   ```
 2. Navigate to the project directory:
-    ```shell
-    cd ai-assistants-maker
-    ```
+   ```shell
+   cd ai-assistants-maker
+   ```
 3. Navigate to the `assistants` directory:
-    ```shell
-    cd assistants
-    ```
+   ```shell
+   cd assistants
+   ```
 4. Open your web browser and navigate to:
-    ```
-    http://localhost/ai-assistants-maker
-    ```
+   ```
+   http://localhost/ai-assistants-maker
+   ```
 5. You will see a list of AI Assistants, and you will have one AI Assistant available:
-    ```shell
-    - Calculator Ai Assistant
-    ```
+   ```shell
+   - Calculator Ai Assistant
+   ```
 
 ## Getting Started
 
 1. Copy and paste the folder `calculator-ai-assistant` inside the `assistants` folder.
 2. Inside the `assistants` folder, you will now have:
-    ```shell
-    - calculator-ai-assistant
-    - calculator-ai-assistant2
-    ```
+   ```shell
+   - calculator-ai-assistant
+   - calculator-ai-assistant2
+   ```
 3. Navigate to the `calculator-ai-assistant2` folder and you will find the following files:
-    ```shell
-    - prompts
-      - examples.txt
-      - expectation.txt
-      - instructions.txt
-      - rules.txt
-      - start.txt
-      - user_Interaction.txt
-    - conf.php
-    - expand.php
-    - index.php
-    ```
+   ```shell
+   - prompts
+     - examples.txt
+     - expectation.txt
+     - instructions.txt
+     - rules.txt
+     - start.txt
+     - user_Interaction.txt
+   - conf.php
+   - expand.php
+   - index.php
+   ```
 4. Open `conf.php` and update it with your AI Assistant information:
-    ```php
-    <?php
 
-    // The role of the AI assistant
-    $role = "calculator";
+   ```php
+   <?php
 
-    // User inputs required
-    $input = "numbers";
+   // The role of the AI assistant
+   $role = "calculator";
 
-    // The action the AI assistant take
-    $action = "calculate";
+   // User inputs required
+   $input = "numbers";
 
-    // The process the AI assistant make
-    $process = "calculation result";
-    ```
+   // The action the AI assistant take
+   $action = "calculate";
+
+   // The process the AI assistant make
+   $process = "calculation result";
+   ```
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
