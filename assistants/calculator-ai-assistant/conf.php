@@ -1,13 +1,13 @@
 <?php
 
-// The role of the AI assistant
+// Role of the AI assistant
 $role = "calculator";
 
 // User inputs required
 $input = "numbers";
 
-// The action the AI assistant take
+// The action the AI assistant performs
 $action = "calculate";
 
-// The process the AI assistant make
-$process = "calculation result";
+// The process executed by the AI assistant
+$process = "calculating the result";

@@ -26,7 +26,7 @@ This repository helps you create AI assistants.
    ```shell
    cd assistants
    ```
-   
+
 4. Open your web browser and navigate to:
    ```
    http://localhost/ai-assistants-maker
@@ -62,17 +62,17 @@ This repository helps you create AI assistants.
    ```php
    <?php
 
-   // The role of the AI assistant
-   $role = "calculator";
+    // Role of the AI assistant
+    $role = "calculator";
 
-   // User inputs required
-   $input = "numbers";
+    // User inputs required
+    $input = "numbers";
 
-   // The action the AI assistant take
-   $action = "calculate";
+    // The action the AI assistant performs
+    $action = "calculate";
 
-   // The process the AI assistant make
-   $process = "calculation result";
+    // The process executed by the AI assistant
+    $process = "calculating the result";
    ```
 5. Navigate to the `prompts` folder and Fill in text files as you need
 
