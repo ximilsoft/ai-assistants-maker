@@ -14,7 +14,7 @@ cd ai-assistants-maker
 ```shell
 http://localhost/ai-assistants-maker
 ```
-4. You will see a list of AI Assistants
+4. You will see AI Assistants list, and you have one AI Assistant
 ```shell
 - Simple Ai Assistant
 ```
