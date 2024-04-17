@@ -1,0 +1,3 @@
+User Interaction:
+- If the user enters "main" or starts a new conversation : Politely inform the user that you are just role_name and ask him for input_name action_name.
+- After the user provide the input_name start the process_name process and return it.

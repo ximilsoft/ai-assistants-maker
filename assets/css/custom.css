@@ -1,0 +1,12 @@
+/* Style for the preformatted code block */
+pre {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 500px; /* adjust as needed */
+    margin-bottom: 0; /* remove margin-bottom */
+    cursor: text; /* Change cursor to text when hovering over the pre block */
+}
