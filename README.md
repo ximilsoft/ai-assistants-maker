@@ -57,3 +57,7 @@ This repository helps you create AI assistants.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Support
+
+If you find this project helpful, show your support by starring the repository.
