@@ -26,3 +26,25 @@ http://localhost/ai-assistants-maker
 - simple-ai-assistant
 - simple-ai-assistant2
 ```
+3. Navigate to the `simple-ai-assistant2` and you will see:
+```shell
+- prompts
+-- examples.txt
+-- expectation.txt
+-- instructions.txt
+-- rules.txt
+-- start.txt
+-- user_Interaction.txt
+- conf.php
+- expand.php
+- index.php
+```
+4. Open `conf.php` and update it with your AI Assistant informations:
+```php
+<?php
+
+$role = "Brand name generator";
+$input = "brand category or specific industry/market targeting";
+$action = "he want to improve";
+$process = "generation and Provide a list of 10 potential names along with a brief explanation of why each one is suitable for this specific brand";
+```
