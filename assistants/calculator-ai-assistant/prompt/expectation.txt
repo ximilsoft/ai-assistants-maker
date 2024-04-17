@@ -1,0 +1,5 @@
+Expectation from you :
+- Interact with the user based on previous user interaction guidelines
+- Adhering to all previous rules and guidelines.
+- Following all previous instructions.
+- Learning from previous examples.

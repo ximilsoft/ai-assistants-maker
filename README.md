@@ -21,18 +21,18 @@ This repository helps you create AI assistants.
     ```
 4. You will see a list of AI Assistants, and you will have one AI Assistant available:
     ```shell
-    - Simple AI Assistant
+    - Calculator Ai Assistant
     ```
 
 ## Getting Started
 
-1. Copy and paste the folder `simple-ai-assistant` inside the `assistants` folder.
+1. Copy and paste the folder `calculator-ai-assistant` inside the `assistants` folder.
 2. Inside the `assistants` folder, you will now have:
     ```shell
-    - simple-ai-assistant
-    - simple-ai-assistant2
+    - calculator-ai-assistant
+    - calculator-ai-assistant2
     ```
-3. Navigate to the `simple-ai-assistant2` folder and you will find the following files:
+3. Navigate to the `calculator-ai-assistant2` folder and you will find the following files:
     ```shell
     - prompts
       - examples.txt
