@@ -12,5 +12,5 @@ cd ai-assistants-maker
 ```
 3. Open your web browser and navigate to:
 ```shell
-localhost/ai-assistants-maker
+http://localhost/ai-assistants-maker
 ```
