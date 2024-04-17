@@ -1,5 +1,5 @@
 # AI Assistants Maker
-This repository help you make LLM assistants.
+This repository helps you create LLM (Large Language Model) assistants.
 
 ## Installation
 1. Clone the repository or download it
@@ -14,15 +14,15 @@ cd ai-assistants-maker
 ```shell
 http://localhost/ai-assistants-maker
 ```
-4. You will see AI Assistants list, and you have one AI Assistant
+4. You will see a list of AI Assistants, and you will have one AI Assistant available:
 ```shell
 - Simple Ai Assistant
 ```
 
 ## Getting Started
 1. Copy and paste the folder `simple-ai-assistant` inside `assistants` folder
-2. Now inside `assistants`, you have:
+2. Inside the `assistants` folder, you will now have:
 ```shell
--simple-ai-assistant
--simple-ai-assistant2
+- simple-ai-assistant
+- simple-ai-assistant2
 ```
