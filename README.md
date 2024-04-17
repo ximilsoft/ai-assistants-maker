@@ -68,6 +68,7 @@ This repository helps you create AI assistants.
    // The process the AI assistant make
    $process = "calculation result";
    ```
+5. Navigate to the `prompts` folder and Fill in text files as you need
 
 ## License
 
