@@ -29,12 +29,12 @@ http://localhost/ai-assistants-maker
 3. Navigate to the `simple-ai-assistant2` and you will see:
 ```shell
 - prompts
--- examples.txt
--- expectation.txt
--- instructions.txt
--- rules.txt
--- start.txt
--- user_Interaction.txt
+ - examples.txt
+ - expectation.txt
+ - instructions.txt
+ - rules.txt
+ - start.txt
+ - user_Interaction.txt
 - conf.php
 - expand.php
 - index.php
