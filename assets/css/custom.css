@@ -6,7 +6,7 @@ pre {
     overflow-x: auto;
     white-space: pre-wrap;
     word-wrap: break-word;
-    max-height: 500px; /* adjust as needed */
+    max-height: 600px; /* adjust as needed */
     margin-bottom: 0; /* remove margin-bottom */
     cursor: text; /* Change cursor to text when hovering over the pre block */
 }

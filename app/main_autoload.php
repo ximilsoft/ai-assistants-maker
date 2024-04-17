@@ -21,3 +21,7 @@ $content = str_replace(
 
 // Echo the modified content inside the textarea
 echo $content;
+
+
+
+

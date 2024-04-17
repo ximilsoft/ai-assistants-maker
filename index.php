@@ -27,7 +27,7 @@ function get_assistants_name($variable = 'simple-name'){
 								
 								
 // Define the path to the directory
-$dir = dirname(__FILE__);
+$dir = dirname(__FILE__).DIRECTORY_SEPARATOR.'assistants';
 
 // Get all folders in the directory excluding "assets"
 $folders = array_filter(glob($dir . '/*'), 'is_dir');
@@ -41,7 +41,7 @@ foreach ($filteredFolders as $folder) {
 	$assistants_name = get_assistants_name($folderName);
     echo '<tr>';
     // Use relative path for folder navigation
-    echo '<td><a href="' . htmlspecialchars($folderName) . '/">' . $assistants_name . '</a></td>';
+    echo '<td><a href="assistants'.DIRECTORY_SEPARATOR.htmlspecialchars($folderName) . '/">' . $assistants_name . '</a></td>';
     echo '</tr>';
 }
 ?>

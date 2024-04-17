@@ -1,4 +1,4 @@
-<?php include_once "../conf.php"; ?>
+<?php include_once "conf.php"; ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,17 +11,17 @@
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="../index.php">Home</a>
+      <a class="navbar-brand" href="../../index.php">Home</a>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="../index.php">View</a>
-          <a class="nav-item nav-link active" href="#">Expand view</a>
+          <a class="nav-item nav-link" href="index.php">View</a>
+          <a class="nav-item nav-link active" href="#">Expand</a>
         </div>
       </div>
     </nav>
     <div class="container">
       <div class="row g-5 mt-5 mb-5">
-        <?php include_once "autoload.php"; ?>
+      <?php include_once "../../app/expand_autoload.php"; ?>
       </div>
     </div>
     <!-- Include select.js script -->

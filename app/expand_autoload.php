@@ -1,12 +1,12 @@
 <?php
 
 $files = [
-    "../prompt/start.txt",
-    "../prompt/user_Interaction.txt",
-    "../prompt/instructions.txt",
-    "../prompt/rules.txt",
-    "../prompt/examples.txt",
-    "../prompt/expectation.txt"
+    "prompt/start.txt",
+    "prompt/user_Interaction.txt",
+    "prompt/instructions.txt",
+    "prompt/rules.txt",
+    "prompt/examples.txt",
+    "prompt/expectation.txt"
 ];
 
 function getFilenameFromPath($path) {
