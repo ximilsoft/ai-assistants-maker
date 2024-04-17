@@ -2,8 +2,8 @@
 This repository helps you create AI assistants.
 
 ## Features
-- Easily engineer AI prompts & assistants.
-- Create prompts & assistants that meet your expectations.
+- Easily engineer AI assistants.
+- Create assistants that meet your expectations.
 
 ## Installation
 
