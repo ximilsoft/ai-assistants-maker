@@ -19,15 +19,14 @@ This repository helps you create AI assistants.
     ```shell
     cd assistants
     ```
-4. You will see a list of AI Assistants, and you will have one AI Assistant available:
-    ```shell
-    - Calculator Ai Assistant
-    ```
-5. Open your web browser and navigate to:
+4. Open your web browser and navigate to:
     ```
     http://localhost/ai-assistants-maker
     ```
-
+5. You will see a list of AI Assistants, and you will have one AI Assistant available:
+    ```shell
+    - Calculator Ai Assistant
+    ```
 
 ## Getting Started
 
