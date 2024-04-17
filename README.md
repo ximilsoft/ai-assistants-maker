@@ -10,17 +10,23 @@ This repository helps you create AI assistants.
 ## Installation
 
 1. Clone the repository or download it:
+
    ```shell
    git clone https://github.com/mohammedellihr/ai-assistants-maker
    ```
+
 2. Navigate to the project directory:
+
    ```shell
    cd ai-assistants-maker
    ```
+
 3. Navigate to the `assistants` directory:
+
    ```shell
    cd assistants
    ```
+   
 4. Open your web browser and navigate to:
    ```
    http://localhost/ai-assistants-maker
