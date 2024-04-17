@@ -15,14 +15,19 @@ This repository helps you create AI assistants.
     ```shell
     cd ai-assistants-maker
     ```
-3. Open your web browser and navigate to:
-    ```
-    http://localhost/ai-assistants-maker
+3. Navigate to the `assistants` directory:
+    ```shell
+    cd assistants
     ```
 4. You will see a list of AI Assistants, and you will have one AI Assistant available:
     ```shell
     - Calculator Ai Assistant
     ```
+5. Open your web browser and navigate to:
+    ```
+    http://localhost/ai-assistants-maker
+    ```
+
 
 ## Getting Started
 
@@ -48,7 +53,7 @@ This repository helps you create AI assistants.
 4. Open `conf.php` and update it with your AI Assistant information:
     ```php
     <?php
-    
+
     // The role of the AI assistant
     $role = "calculator";
 
