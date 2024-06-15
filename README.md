@@ -1,6 +1,6 @@
 # AI Assistants Maker
 
-This repository helps you create AI assistants.
+Toolkit for creating and managing custom AI assistants, engineering prompts, and ensuring they perfectly fit your project needs.
 
 ## Features
 
@@ -15,7 +15,7 @@ This repository helps you create AI assistants.
 1. Clone the repository or download it:
 
    ```shell
-   git clone https://github.com/mohammedellihr/ai-assistants-maker
+   git clone https://github.com/ximilsoft/ai-assistants-maker
    ```
 
 2. Navigate to the project directory:
